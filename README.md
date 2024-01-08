@@ -19,13 +19,12 @@ This batch script is designed to facilitate the extraction of specific page rang
 - Extract More Pages (Optional):
     After the first extraction, you can choose to extract another range from the same PDF.
     To do so, enter s when prompted. Otherwise, enter any other key to end the process.
-  
-## Output:
-The extracted PDF will be saved in the same directory as the original file.
-The new file's name will include the original name and the specified page range (e.g., document_1-50.pdf).
-Repeat or Exit:
-If you choose to extract more pages, the script will repeat the page range selection process.
-To exit, simply decline to extract more pages when prompted or close the command prompt window.
+- Output:
+    The extracted PDF will be saved in the same directory as the original file.
+    The new file's name will include the original name and the specified page range (e.g., document_1-50.pdf).
+- Repeat or Exit:
+    If you choose to extract more pages, the script will repeat the page range selection process.
+    To exit, simply decline to extract more pages when prompted or close the command prompt window.
 
 ## Notes
 This script assumes that the pdftk command-line tool is already installed and configured in your system path.
